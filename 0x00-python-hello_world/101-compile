@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Compiling $PYFILE ..."
+python3 -m py_compile $PYFILE
+mv $(dirname $PYFILE)/__pycache__/$(basename $PYFILE .py).cpython-3*.pyc $(dirname $PYFILE)/$(basename $PYFILE .py).pyc
+rm -rf $(dirname $PYFILE)/__pycache__
