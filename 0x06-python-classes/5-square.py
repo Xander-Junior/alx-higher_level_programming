@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # 4-square.py by Obed Boakye
-"""Module for Square class with private attribute size using getter and setter."""
+"""Module for Square class with private attribute
+size using getter and setter."""
 
 
 class Square:
