@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-# 4-square.py by Obed Boakye
-"""Module for Square class with private attribute
-size using getter and setter."""
+# 5-square.py by Obed Boakye
+"""Module for Square class with a method
+to print its representation."""
 
 
 class Square:
-    """Represents a square with a private attribute size."""
+    """Represents a square."""
 
     def __init__(self, size=0):
         self.size = size
@@ -27,3 +27,12 @@ class Square:
     def area(self):
         """Return the current square area."""
         return self.__size ** 2
+
+    def my_print(self):
+        """Print the square with the '#' character."""
+        if self.__size == 0:
+            print()
+        else:
+            for _ in range(self.__size):
+                print("#" * self.__size)
+
