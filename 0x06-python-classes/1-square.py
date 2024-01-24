@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # 1-square.py by Obed Boakye
-"""Module for Square class. This module provides a simple Square class with 
-initialization based on size."""
+"""Module for Square class. This module provides a simple
+Square class with initialization based on size."""
+
 
 class Square:
     """Represents a square.
