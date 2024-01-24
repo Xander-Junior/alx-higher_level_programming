@@ -5,6 +5,7 @@ Module for Square class. This module provides the Square class
 which allows for initializing a square and calculating its area.
 """
 
+
 class Square:
     """Represents a square.
 
