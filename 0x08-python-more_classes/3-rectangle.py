@@ -57,4 +57,3 @@ class Rectangle:
             if h != self.__height - 1:
                 rectangle_str += "\n"
         return rectangle_str
-
